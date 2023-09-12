@@ -131,6 +131,7 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
 nav a {
     margin: 0 10px;
     text-decoration: none;
@@ -141,7 +142,6 @@ nav a {
 nav a:hover {
     color: #f0f0f0;
 }
-
 
 section {
     margin: 20px;
@@ -165,6 +165,19 @@ footer {
     width: 100%;
 }
 
+.chat-bot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    z-index: 1000; 
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px; /* or any other value */
+    padding: 0 20px; /* adding 20px of padding */
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -172,8 +185,6 @@ body {
     background-color: #f0f0f0;
     text-align: center;
 }
-
-
 section img {
     display: block;
     margin: auto;
