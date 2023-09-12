@@ -40,3 +40,14 @@ section h2 {
     color: #ff5733;
 }
 
+footer {
+    background-color: #ff5733;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
