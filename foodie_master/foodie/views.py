@@ -34,7 +34,7 @@ def login_view(request):
 
         user = authenticate(request, username=username, password=password)
 
-        if user is not None:
+        if user is not None: 
             return redirect('http://localhost:63342/chatbotfood/foodie-master/index.html?_ijt=3mvcr5777d2hdfp9hogm52nj56')
         else:
             messages.info(request, 'Username OR password is incorrect')
